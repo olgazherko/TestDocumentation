@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="" name="" >
+<node_order><![CDATA[]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="33" name="Установка / удаление" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="38" name="Инсталляция программы.">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>OpenServer, PHP-7.2, база данных - MySQL, ОС Windows х64, ПК.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на значок &quot;Проводник&quot; на панели задач.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Кликнуть один раз по значку &quot;Проводник&quot; на панели задач.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Окно &quot;Проводник&quot; открыто.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на значок &quot;Загрузки&quot; на панели навигации.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Кликнуть один раз по значку &quot;Загрузки&quot; на панели навигации.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Окно &quot;Загрузки&quot; открыто.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на значок приложения для уставки &quot;BrokenDBGenerator_v1.0.9 (1)&quot; в рабочей области окна &quot;Загрузки&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Дважды кликнуть на значок приложения для установки &quot;BrokenDBGenerator_v1.0.9 (1)&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилось модальное окно &quot;Контроль учетных записей&quot; с запросом о разрешении этому приложению вносить изменения на устройстве.&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку &quot;Да&quot; в модальном окне &quot;Контроль учетных записей&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Кликнуть один раз на кнопку &quot;Да&quot; в модальном окне.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилось окно &quot;DataBaseGenerator Setup:&nbsp;Installation Fol...&quot;&nbsp;c указанием места установки приложения на ПК.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку &quot;Next&quot; в окне&nbsp;&quot;DataBaseGenerator Setup: Installation Fol...&quot;&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на кнопку &quot;Next&quot; в окне&nbsp;&quot;DataBaseGenerator Setup: Installation Fol...&quot;.&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилось окно &quot;DataBaseGenerator Setup: Installation Оp...&quot; с компонентом для установки.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на кнопку &quot;Install&quot; в окне &quot;DataBaseGenerator Setup: Installation Оp...&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилось окно &quot;DataBaseGenerator Setup: Сompleted&quot; с отображением полосы процесса установки.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Когда полоса установки полностью стала зеленого цвета, навести курсор на кнопку &quot;Close&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>Кликнуть&nbsp;один раз на кнопку &quot;Close&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Приложение установлено, на рабочем столе появился ярлык.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="40" name="Удаление программы из главного меню.">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на значок &quot;Пуск&quot; на панели задач.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Кликнуть один раз на значок &quot;Пуск&quot; на панели задач.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Главное меню системы Windows открыто.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на значок &quot;DataBaseGenerator&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Кликнуть правой кнопкой мыши по значку приложения.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилось контекстное меню.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>В контекстном меню навести курсор на кнопку &quot;Удалить&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Кликнуть команду &quot;Удалить&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилось окно &quot;Программы и компоненты&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>В окне &quot;Программы и компоненты&quot; выбрать приложение &quot;DataBaseGenerator&quot;, кликнув один раз на него после наведения курсора.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Приложение &quot;DataBaseGenerator&quot; выбрано и выделено голубым цветом.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>В окне &quot;Программы и компоненты&quot; нажать в строке меню кнопку &quot;Удалить&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилось окно &quot;Контроль учетных записей&quot; с запросом об удалении или изменении приложения.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>В окне &quot;Контроль учетных записей&quot; кликнуть один раз кнопку &quot;Да&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Программа удалена.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="42" name="Удаление программы на странице «Параметры».">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на значок &quot;Пуск&quot; на панели задач.&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Кликнуть один раз рна значок &quot;Пуск&quot; на панели задач.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Главное меню системы Windows открыто.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Навести курсор значок шестеренки в открывшемся меню.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появился всплывающий список с названием значков, изображенных в главном меню слева.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>кликнуть один раз по кнопке &quot;Параметры&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Окно &quot;Прамерты&quot; появилось.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>В окне &quot;Парамметры&quot; кликнуть&nbsp;на раздел &quot;Приложения&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Раздел &quot;Приложения&quot; открылся.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Нажать на значок приложения &quot;DataBaseGenerator&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Под значком приложения появились кнопки &quot;Переместить&quot;, &quot;Удалить&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Нажать на кнопку &quot;Удалить&quot; под значком приложения.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилось окно с сообщением о том, что будет удалено приложение и его данные, и кнопка &quot;Удалить&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Нажать на кнопку &quot;Удалить&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилось модальное окно &quot;Контроль учетных записей&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Нажать кнопку &quot;Да&quot; в модальном окне.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Программа&nbsp;удалена.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testsuite><testsuite id="34" name="Запуск программы" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="46" name="Проверка запуска программы с ярлыка на рабочем столе.">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[5]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Программа установлена, ярлык на рабочем столе есть.</p>
+
+<p>&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на ярлык на рабочем столе.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Дважды кликнуть курсором по ярлыку программы.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Программа запущена.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="48" name="Проверка запуска программы из главного меню.">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[6]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на значок &quot;Пуск&quot; на панели задач.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на значок &quot;Пуск&quot; на панели задач.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Главное меню системы Windows открыто.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на значок приложения &quot;DataBaseGenerator&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Дважды нажать на значок приложения.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Приложение открыто.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="50" name="Проверка запуска программы из диспетчера задач.">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[7]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Открыть диспетчер задач с помощью клавиш Ctrl+Shift+Esc.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Диспетчер задач открыт.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на раздел &quot;Файл&quot; в строке меню.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на раздел &quot;Файл&quot; в строке меню.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появился выпадающий список команд в разделе &quot;Файл&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Из выпадающего списка с помощью курсора&nbsp;выбрать команду &quot;Запустить новую задачу&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен на команду &quot;Запустить новую задачу&quot; из выпадающего списка.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на команду &quot;Запустить новую задачу&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилось всплывающее окно &quot;Создание задачи&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>В появившемся всплявающем окне &quot;Создание задачи&quot; навести курсор на кнопку &quot;Обзор&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на кнопку &quot;Обзор&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилось всплывающее окно &quot;Обзор&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Нажать в адресной строке всплывающего окна &quot;Обзор&quot; локальный диск (С:).</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>В рабочей области всплывающего окна &quot;Обзор&quot; открылся диск С.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Выбрать папку &quot;Program Files (x86)&quot; в рабочей области всплывающего окна &quot;Обзор&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Папка&nbsp; &quot;Program Files (x86)&quot; выбрана.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Дважды кликнуть на папку&nbsp;&quot;Program Files (x86)&quot; для ее открытия.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Папка&quot;Program Files (x86)&quot; открыта.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>В папке&nbsp;&quot;Program Files (x86)&quot; из предложенного списка выбрать папку &quot;DBGeneratorBroken&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Папка &quot;DBGeneratorBroken&quot; выбрана.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Дважды кликнуть на папку &quot;DBGeneratorBroken&quot; для открытия.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Папка &quot;DBGeneratorBroken&quot; открыта.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>В папке &quot;DBGeneratorBroken&quot; из предложенного списка выбрать значок приложения&nbsp;&quot;DataBaseGenerator&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Значок приложения&nbsp;&quot;DataBaseGenerator&quot; выбран.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[14]]></step_number>
+	<actions><![CDATA[<p>Дважды кликнуть по&nbsp;значку&nbsp;приложения&nbsp;&quot;DataBaseGenerator&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилось всплывающее окно &quot;Создание задачи&quot; с указанием в поле &quot;Открыть&quot; места расположения приложения (&quot;C:\Program Files (x86)\DBGeneratorBroken\DataBaseGenerator.exe&quot;).</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[15]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку &quot;ОК&quot; в всплывающем окне &quot;Создание задачи&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[16]]></step_number>
+	<actions><![CDATA[<p>Нажать на кнопку &quot;ОК&quot; для запуска приложения.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Приложение запущено.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="52" name="Проверка запуска программы из папки в файловой системе.">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[8]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на значок &quot;Проводник&quot; на панели задач.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на значок &quot;Проводник&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Окно &quot;Проводник&quot; открылось.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Слева в окне &quot;Проводник&quot; на панели навигации навести курсор на локальный диск (С:).</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Кликнуть один раз на локальный диск (С:) на панели навигации.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Локальный доск (С:) открылся.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>В рабочей области открытого окна локального диска (С:) навести на курсор на папку &quot;Program Files (x86)&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Дважды нажать на папку&nbsp;&quot;Program Files (x86)&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Папка&nbsp;&quot;Program Files (x86)&quot; открылась.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Из предложенного списка в открытой папке&nbsp;&quot;Program Files (x86)&quot; навести курсор на папку &quot;DBGeneratorBroken&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Дважды кликнуть на папку &quot;DBGeneratorBroken&quot;.&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Папка&quot;DBGeneratorBroken&quot; открыта.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>В открытой папке &quot;DBGeneratorBroken&quot; навести курсор на значок приложения &quot;DataBaseGenerator&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Дважды кликнуть по значку приложения &quot;DataBaseGenerator&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Приложение открылось.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testsuite><testsuite id="35" name="Интерфейс" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="54" name="Проверка кликабельности кнопок управления состоянием окна">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[9]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопки&nbsp;&quot;Свернуть&quot;, &quot;Развернуть/Свернуть в окно&quot;, &quot;Закрыть&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать курсором один раз&nbsp;на кнопки&nbsp;&quot;Свернуть&quot;, &quot;Развернуть/Свернуть в окно&quot;, &quot;Закрыть&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Кнопки нажимаются.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="56" name="Проверка появления всплывающей подсказки при наведении курсора на кнопки управления состоянием окна.">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[10]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку &quot;Свернуть&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилась всплывающая подсказка &quot;Свернуть&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку &quot;Развернуть/Свернуть в окно&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилась вплывающая подсказка &quot;Развернуть&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку &quot;Закрыть&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появилась всплывающая подсказка &quot;Закрыть&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="58" name="Проверить, меняется ли цвет кнопок «Свернуть», «Развернуть» при наведении на них курсора.">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[11]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку &quot;Свернуть&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Кнопка &quot;Свернуть&quot; сменила цвет.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку &quot;Развернуть/Свернуть в окно&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Кнопка &quot;Развернуть/Свернуть в окно&quot; поменяла цвет.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="60" name="Проверить, становится ли кнопка «Закрыть» красного цвета при наведении на нее курсора.">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[12]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку &quot;Закрыть&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Кнопка &quot;Закрыть&quot; стала красного цвета.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="62" name="Проверить, правильно ли срабатывают кнопки управления состоянием окна.">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[13]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопки управления состоянием окна.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Кликнуть на кнопку &quot;Свернуть&quot;, &quot;Развернуть/Свернуть в окно&quot;, &quot;Закрыть&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Кнопки срабатывают правильно ( &quot;Свернуть&quot; - сворачивает окно, &quot;Развернуть/Свернуть в окно&quot; - разворачивает окно программы на весь экран, спорачивает развернутое окно до исходных размеров, &quot;Закрыть&quot; - закрывает программу).</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="64" name="Проверка кликабельности кнопок программы.">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[14]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопки&nbsp; &quot;Add patient&quot;,&nbsp; &quot;Update patient&quot;, &quot;Delet&nbsp;first&quot;, &quot;Delet all&quot;,&nbsp; &quot;Add worklist&quot;, &quot;Update worklist&quot;, &quot;Delete first wl&quot;,&nbsp;&quot;Delete all wl&quot;, &quot;Connect&quot;, &quot;Удалить все таблицы&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать курсором один<a href="http://testlink/testlink-code-testlink_1_9_20_fixed/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=64&amp;tcversion_id=65&amp;goback_url=http%3A%2F%2Ftestlink%2Ftestlink-code-testlink_1_9_20_fixed%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D64%26show_mode%3Dshow&amp;step_id=258">&nbsp;</a>раз на кнопки&nbsp;&quot;Add patient&quot;,&nbsp; &quot;Update patient&quot;, &quot;Delet&nbsp;first&quot;, &quot;Delet all&quot;,&nbsp; &quot;Add worklist&quot;, &quot;Update worklist&quot;, &quot;Delete first wl&quot;,&nbsp;&quot;Delete all wl&quot;, &quot;Connect&quot;, &quot;Удалить все таблицы&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Кнопки нажимаются.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="66" name="Проверить, меняется ли цвет кнопок программы при наведении на них курсора.">
+	<node_order><![CDATA[6]]></node_order>
+	<externalid><![CDATA[15]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопки&nbsp;&quot;Add patient&quot;,&nbsp; &quot;Update patient&quot;, &quot;Delet&nbsp;first&quot;, &quot;Delet all&quot;,&nbsp; &quot;Add worklist&quot;, &quot;Update worklist&quot;, &quot;Delete first wl&quot;,&nbsp;&quot;Delete all wl&quot;, &quot;Connect&quot;, &quot;Удалить все таблицы&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Кнопки&nbsp;&quot;Add patient&quot;,&nbsp; &quot;Update patient&quot;, &quot;Delet&nbsp;first&quot;, &quot;Delet all&quot;,&nbsp; &quot;Add worklist&quot;, &quot;Update worklist&quot;, &quot;Delete first wl&quot;,&nbsp;&quot;Delete all wl&quot;, &quot;Connect&quot;, &quot;Удалить все таблицы&quot; меняют цвет с салатового на серый</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="68" name="Проверка возможности ввода символов в поле «AE Title».">
+	<node_order><![CDATA[7]]></node_order>
+	<externalid><![CDATA[16]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на поле&nbsp;&quot;AE Title&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на поле&nbsp;&quot;AE Title&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появился мигающий курсор ввода в поле&nbsp;&quot;AE Title&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ввести символы 1,2,3 в поле&nbsp;&quot;AE Title&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Символы 1,2,3 введены и отображаются в поле&nbsp;&quot;AE Title&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="70" name="Проверить появление выпадающего списка из окна «Modality» при нажатии на стрелку.">
+	<node_order><![CDATA[8]]></node_order>
+	<externalid><![CDATA[17]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на стрелку в окне &quot;Modality&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на стрелку.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Выпадающий список появился.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="72" name="Проверить срабатывание вертикальной полосы прокрутки в таблице &quot;Patient&quot;.">
+	<node_order><![CDATA[9]]></node_order>
+	<externalid><![CDATA[18]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Софрмированна таблица &quot;Patient&quot; из 7 строк.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на вертикальную полосу прокрутки в таблице &quot;Patient&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен, полоса прокрутки изменила цвет с серого на черный.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Передвинуть полосу прокрутки вверх/вниз.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Полоса прокрутки двигается.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="74" name="Проверить срабатывание горизонтальной полосы прокрутки в таблице &quot;WorkList&quot;.">
+	<node_order><![CDATA[10]]></node_order>
+	<externalid><![CDATA[19]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Сформирована таблица &quot;Worklist&quot; из 7 строк и 11 столбцов.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на горизонтальную полосу прокрутки в таблице &quot;WorkList&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен, горизонтальная полоса прокрутки изменила цвет с серого на черный.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Передвинуть горизонтальную полосу прокрутки вправо/влево.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Полоса прокрутки двигается.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="76" name="Проверить возможность изменения ширины столбцов в таблице «Patient».">
+	<node_order><![CDATA[11]]></node_order>
+	<externalid><![CDATA[20]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Сформирована таблица &quot;Patient&quot; из 7 строк и 9 столбцов.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на границу между заголовками 1 и 2 столбцов таблицы &quot;Patient&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появился курсор перемещения границы столбца вправо/влево.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Передвинуть курсор перемещения вправо.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Граница 1 столбца изменилась (расширилась).</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Передвинуть курсор перемещения влево.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Граница 1 столбца изменилась (сузилась).</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="78" name="Проверить отображение данных в поле вывода информации о действиях при нажатии кнопок программы.">
+	<node_order><![CDATA[12]]></node_order>
+	<externalid><![CDATA[21]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку&nbsp;&quot;Add patient&quot;,&nbsp; &quot;Update patient&quot;, &quot;Delet&nbsp;first&quot;, &quot;Delet all&quot;,&nbsp; &quot;Add worklist&quot;, &quot;Update worklist&quot;, &quot;Delete first wl&quot;,&nbsp;&quot;Delete all wl&quot;, &quot;Удалить все таблицы&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на кнопку&nbsp;&quot;Add patient&quot;,&nbsp; &quot;Update patient&quot;, &quot;Delet&nbsp;first&quot;, &quot;Delet all&quot;,&nbsp; &quot;Add worklist&quot;, &quot;Update worklist&quot;, &quot;Delete first wl&quot;,&nbsp;&quot;Delete all wl&quot;, &quot;Удалить все таблицы&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>В поле вывода информации о действиях отобразились данные.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="80" name="Проверка отсутствия возможности вручную вносить данные в поле вывода информации о действиях.">
+	<node_order><![CDATA[13]]></node_order>
+	<externalid><![CDATA[22]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на поле вывода информации о действиях.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать на поле вывода информации о действиях.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Поле осталось пустым, мигающий курсор ввода не появился.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="264" name="Проверка возможности ввода символов в поля &quot;Patient Count&quot;, &quot;WorkList Count&quot;.">
+	<node_order><![CDATA[20]]></node_order>
+	<externalid><![CDATA[52]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>В полях&nbsp;&quot;Patient Count&quot;,&nbsp; &quot;WorkList Count&quot; при открытии программы и отсутсвии сформированных таблиц отображается символ 0.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на поле&nbsp;&quot;Patient Count&quot;,&nbsp; &quot;WorkList Count&quot;.&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на центр поля&nbsp;&quot;Patient Count&quot;,&nbsp; &quot;WorkList Count&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Перед символом 0 в поле&nbsp;&quot;Patient Count&quot;,&nbsp; &quot;WorkList Count&quot; появился мигающий курсор ввода.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>С помощью кнопки Delete на клавиатуре удалить символ 0.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Символ 0 удален, поля&nbsp;&quot;Patient Count&quot;,&nbsp; &quot;WorkList Count&quot; пустые. В поле мигает курсор ввода.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ввести в поле&nbsp;&quot;Patient Count&quot;,&nbsp; &quot;WorkList Count&quot; символ 2.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Символ 2 введен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="279" name="Проверить срабатывание вертикальной полосы прокрутки в таблице &quot;WorkList&quot;.">
+	<node_order><![CDATA[21]]></node_order>
+	<externalid><![CDATA[53]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Сформирована таблица &quot;WorkList&quot; из 7 строк</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на вертикальную полосу прокрутки в таблице &quot;WorkList&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен, полоса прокрутки изменила цвет с серого на черный.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Передвинуть полосу прокрутки вверх/вниз.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Полоса прокрутки двигается.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="287" name="Проверить возможность изменения ширины столбцов в таблице «Worklist».">
+	<node_order><![CDATA[22]]></node_order>
+	<externalid><![CDATA[54]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Сформирована таблица &quot;WorkList&quot; из 7 строк и 11 столбцов.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на границу между заголовками 1 и 2 столбцов таблицы &quot;WorkList&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появился курсор премещения границы вправо/влево.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Передвинуть курсор перемещения вправо.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Граница 1 столбца изменилась (расширилась).</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Передвинуть курсор перемещения влево.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Граница 1 столбца изменилась (сузилась).</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testsuite><testsuite id="36" name="Таблица &quot;Patient&quot;" >
+<node_order><![CDATA[4]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="94" name="Проверить возможность формирования таблицы при вводе валидных данных в поле «Patient Count».">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[29]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Нажать на поле&nbsp;&quot;Patient Count&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Мигающий курсор появился в поле &quot;Patient Count&quot; после цифры 0.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Удалить цифру 0 с помощью клавиши&nbsp;BACKSPACE.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Поле&nbsp;&quot;Patient Count&quot; стало пустым, выделенным красной рамкой. Появилось вплывающее окно &quot;Не удалось преобразовать значение &quot;&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>В поле&nbsp;&quot;Patient Count&quot; ввести цифру 7.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Цифра 7 введена.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Нажать на кнопку&nbsp;&quot;Add patient&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Таблица &quot;&quot;Рatient&quot; сформирована.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="96" name="Проверить отсутствие возможности сформировать таблицу  при невалидных данных в поле «Patient Count».">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[30]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Нажать на поле&nbsp;&quot;Patient Count&quot;.&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Мигающий курсор появился в поле&nbsp;&quot;Patient Count&quot; после цифры 0.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Удалить цифру 0 клавишей BACKSPACE.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Поле&nbsp;&quot;Patient Count&quot; пустое, выделено красной рамкой. Появилось всплывающее окно &quot;Не удалось преобразовать значение&quot;&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ввести в поле&nbsp;&quot;Patient Count&quot; невалидные данные (буква, спецсимвол) - q*.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Введены невалидные данные q*. Поле&nbsp;&nbsp;&quot;Patient Count&quot; выделено красной рамкой, остается всплывающее окно &quot;Не удалось преобразовать значение&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Нажать на кнопку&nbsp;&quot;Add patient&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Таблица не сформирована.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="98" name="Проверить отсутствия возможности формирования таблицы при оставлении поля «Patient Count» пустым.">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[31]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Нажать на поле&nbsp;&quot;Patient Count&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Появился мигающий курсор в поле&nbsp;&quot;Patient Count&quot; после цифры 0.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Удалить цифру 0 из поля &quot;Patient Count&quot; с помощью клавиши BACKSPACE.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Поле&nbsp;&quot;Patient Count&quot; пустое, выделено красной рамкой, появилось всплывающее окно &quot;Не удалось преобразовать значение&quot;&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Нажать на кнопку&nbsp;&quot;Add patient&quot;.&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Таблица не сформирована.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="100" name="Проверка ввода максимального количества символов в поле «Patient Count» до появления предупреждения.">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[32]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на поле&nbsp;&quot;Patient Count&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать на поле&nbsp;&nbsp;&quot;Patient Count&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Мигающий курсор появился в поле&nbsp;&nbsp;&quot;Patient Count&quot; после цифры 0.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Удалить цифру 0 клавишей BACKSPACE.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Поле&nbsp;&nbsp;&quot;Patient Count&quot; пустое, выделено красной рамкой, появилось всплывающее окно &quot;Не удалось преобразовать значение&quot;&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ввести в поле &nbsp;&quot;Patient Count&quot; 10 цифр&nbsp;(1234567891).</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Цифры введены, всплывающее окно &quot;Не удалось преобразовать значение&quot;&quot; не появилось.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="102" name="Проверка отсутствия возможности внесения изменений вручную в информацию, отображающуюся в таблице.">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[33]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Сформирована таблица&nbsp;&quot;Рatient&quot; из 7 строк и 9 столбцов.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на ячейку &quot;Имя&nbsp; 2 пациента&quot; сформированной таблицы&nbsp;&quot;Рatient&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен, 2 строка таблицы поменяла цвет рна бледносалатовый.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать на ячейку &quot;Имя 2 пациента&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Вся 2 строка таблицы выделена салатовым цветом. Мигающий курсор не появился, изменить информацию вручную не удалось.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="104" name="Проверка обновления информации в таблице при нажатии кнопки «Update patient».">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[34]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Сформирована таблица &quot;Patient&quot; из 7 строк.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Нажать кнопку &quot;Update patient&quot; под таблицей&nbsp;&quot;Рatient&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Информация в таблице обновлена.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="106" name="Проверка возможности удаления первой строки таблицы при нажатии кнопки «Delete first».">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[35]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Сформирована таблица&nbsp;&nbsp;&quot;Patient&quot; из 7 строк.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку&nbsp;&quot;Delet&nbsp;first&quot; под таблицей&nbsp;&nbsp;&quot;Patient&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на кнопку&nbsp;&quot;Delet&nbsp;first&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Первая строка таблицы&nbsp;&quot;Patient&quot; удалена.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="108" name="Проверка возможности удаления всей информации из таблицы при нажатии кнопки «Delete all».">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[36]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Сформирована таблица &quot;Patient&quot; из 7 строк.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку&nbsp;&quot;Delet all&quot; под таблицей &quot;Patient&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на кнопку&nbsp;&quot;Delet all&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Вся информация в таблице удалена.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="110" name="Проверить, сохранится ли информация в таблице при закрытии программы и повторном входе.">
+	<node_order><![CDATA[1008]]></node_order>
+	<externalid><![CDATA[37]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Сформирована таблица &quot;Patient&quot; из 7 строк и 9 столбцов.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку управления состояние окна &quot;Закрыть&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен, кнопка &quot;Закрыть&quot; изменила цвет на красный.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на кнопку &quot;Закрыть&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Программа закрылась.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Запустить программу &quot;DataBaseGenerator&quot; с помощью ярлыка на рабочем столе.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Программа запущена, в открывшемся окне появилась рание сформированная таблица &quot;Patient&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testsuite><testsuite id="37" name="Таблица &quot;WorkList&quot;" >
+<node_order><![CDATA[5]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="112" name="Проверить возможность формирования таблицы при вводе валидных данных в поле «WorkList Count».">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[38]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на поле&nbsp;&quot;WorkList Count&quot;.&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на поле&nbsp;&quot;WorkList Count&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Мигающий курсор появился после цифры 0 в поле&nbsp;&quot;WorkList Count&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Удалить цифру 0 клавишей BACKSPACE.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Поле&nbsp;&quot;WorkList Count&quot; пустое, выделено красной рамкой, появилось всплявающее окно &quot;Не удалось преобразовать значение&quot;&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ввести в поле&nbsp;&quot;WorkList Count&quot; цифру 4.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Цифра 4 введена.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на кнопку&nbsp;&nbsp;&quot;Add worklist&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Таблица сформирована.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="114" name="Проверить отсутствие возможности формирования таблицы при невалидных данных в поле «WorkList Count».">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[39]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на поле&nbsp;&nbsp;&quot;WorkList Count&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать на поле&nbsp;&nbsp;&quot;WorkList Count&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>МИгающий курсор появился после цифры 0.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Удалить цифру 0 клавишей BACKSPACE.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Поле&nbsp;&nbsp;&quot;WorkList Count&quot; пустое, выделено красной рамкой, появилось всплывающее окно &quot;Не удалось преобразовать значение&quot;&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ввести в поле&nbsp;&nbsp;&quot;WorkList Count&quot; символы q*.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Символы q* введены.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Нажать кнопку&nbsp;&nbsp;&quot;Add worklist&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Таблица не сформирована.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="116" name="Проверить отсутствие возможности формирования таблицы, если поле «WorkList Count» незаполнено.">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[40]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на поле&nbsp;&nbsp;&quot;WorkList Count&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на поле&nbsp;&quot;WorkList Count&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Мигающий курсор появился после цифры 0.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Удалить цифру 0 клавишей BACKSPACE.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Поле&nbsp;&quot;WorkList Count&quot; пустое, выделено красной рамкой , появилось всплывающее окно &quot;Не удалось преобразовать значение&quot;&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на кнопку&nbsp;&quot;Add worklist&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Таблица не сформирована.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="118" name="Проверка ввода максимального количества символов поле «WorkList Count» для формирования таблицы.">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[41]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+
+<testcase internalid="120" name="Проверка отсутствия возможности внесения изменений вручную в информацию, отображающуюся в таблице.">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[42]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Сформирована таблица &quot;WorkList&quot; из 4 строк и 11 столбцов.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на ячейку &quot;Описание&quot;(1 пациент) таблицы &quot;WorkList&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен. Вся строка таблицы выделилась бледносалатовым цветом.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать на ячейку &quot;Описание&quot; (1 пациента) таблицы &quot;WorkList&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>вся строка таблицы стала салатового цвета, мигающий курсор не появился, внести изменения вручную невозможно.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="122" name="Проверка обновления информации в таблице при нажатии кнопки «Update worklist».">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[43]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Сформирована таблица&nbsp;&quot;Worklist&quot; из 4 строк и 11 столбцов.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Навести курсор на кнопку&nbsp;&quot;Update worklist&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Курсор наведен.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Нажать один раз на кнопку&nbsp;&quot;Update worklist&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Информация в таблице обновлена.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="124" name="Проверить возможность формирования таблицы при вводе валидных данных в поле «AE Title».">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[44]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+
+<testcase internalid="126" name="Проверить возможность формирования таблицы при вводе невалидных данных в поле «AE Title».">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[45]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+
+<testcase internalid="128" name="Проверить возможность формирования таблицы при оставлении поля «AE Title» незаполненным.">
+	<node_order><![CDATA[1008]]></node_order>
+	<externalid><![CDATA[46]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+
+<testcase internalid="130" name="Проверка ввода максимального количества символов в поле «AE Title» для формирования таблицы.">
+	<node_order><![CDATA[1009]]></node_order>
+	<externalid><![CDATA[47]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+
+<testcase internalid="132" name="Проверка возможности удаления первой строки таблицы при нажатии кнопки «Delete first WL».">
+	<node_order><![CDATA[1010]]></node_order>
+	<externalid><![CDATA[48]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+
+<testcase internalid="134" name="Проверка возможности удаления всей информации из таблицы при нажатии кнопки «Delete all WL».">
+	<node_order><![CDATA[1011]]></node_order>
+	<externalid><![CDATA[49]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+
+<testcase internalid="136" name="Проверить, сохранится ли информация в таблице при закрытии программы и повторном входе.">
+	<node_order><![CDATA[1012]]></node_order>
+	<externalid><![CDATA[50]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+
+<testcase internalid="138" name="Проверка удаления информации из таблиц «Patient», «WorkList» при нажатии кнопки «Delete all tables&quot;.">
+	<node_order><![CDATA[1013]]></node_order>
+	<externalid><![CDATA[51]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+</testsuite></testsuite>
